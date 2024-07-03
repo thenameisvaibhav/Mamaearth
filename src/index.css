@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: Helvetica_Now_Display;
+    src: url(./assets/fonts/HELVETICANOWDISPLAY-REGULAR.TTF);
+}
+
+@font-face {
+    font-family: Neue_Montreal;
+    src: url(./assets/fonts/NEUEMONTREAL-REGULAR.TTF);
+}
+
+*::-webkit-scrollbar{
+    display: none;
+}
+
+.full{
+    overflow: hidden;
+    position: fixed;
+    z-index: 999;
+}
+
+.elem:hover{
+    transform: translateY(-100%);
+}
