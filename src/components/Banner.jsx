@@ -1,4 +1,5 @@
 import { useGSAP } from '@gsap/react';
+import { motion } from 'framer-motion';
 import gsap from 'gsap';
 import React from 'react'
 import { BiSolidOffer } from "react-icons/bi";
@@ -47,10 +48,12 @@ const Banner = () => {
                 <img className='banner-img w-full h-full object-cover object-top shrink-0' src="src\assets\images\MamaFace.jpg" alt="" />
             </div>
             <div className="info px-5 md:pl-16 lg:pl-32 py-4 w-full lg:w-1/2 min-h-[35vh] lg:min-h-full">
-                <h3 className='text-2xl md:text-3xl lg:text-4xl font-medium tracking-tighter pl-1'>Enchance your</h3>
-                <h1 className='text-6xl md:text-7xl lg:text-[7.5rem] lg:leading-[6.5rem] font-bold leading-[3.7rem] tracking-tighter'>Beauty</h1>
-                <h1 className='text-6xl md:text-7xl lg:text-[7.5rem] lg:leading-[6.5rem] font-bold leading-[3.7rem] tracking-tighter'>Naturally🌿</h1>
-                <h5 className='text-xl md:text-2xl lg:text-3xl font-medium leading-none tracking-tighter mt-3'>That's our vision</h5>
+                <motion.h3 initial={{ y: '100%', opacity: 0 }}
+                    animate={{ y: 0, opacity: 1 }}
+                    transition={{ ease: [0.83, 0, 0.17, 1], duration: .4, delay: .1 }} className='text-2xl md:text-3xl lg:text-4xl font-medium tracking-tighter pl-1'>Enchance your</motion.h3>
+                <motion.h1 className='text-6xl md:text-7xl lg:text-[7.5rem] lg:leading-[6.5rem] font-bold leading-[3.7rem] tracking-tighter'>Beauty</motion.h1>
+                <motion.h1 className='text-6xl md:text-7xl lg:text-[7.5rem] lg:leading-[6.5rem] font-bold leading-[3.7rem] tracking-tighter'>Naturally🌿</motion.h1>
+                <motion.h5 className='text-xl md:text-2xl lg:text-3xl font-medium leading-none tracking-tighter mt-3'>That's our vision</motion.h5>
                 <div className="shippingoffer w-fit flex items-center gap-2 mt-2 md:mt-5 px-4 rounded-lg py-1 lg:py-2 bg-[#FBD11B]">
                     <BiSolidOffer />
                     <h3 className='text-sm md:text-base lg:text-lg font-semibold tracking-tight leading-none'>Buy Any 3 Products @ FLAT Rs.899</h3>

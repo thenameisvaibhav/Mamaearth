@@ -33,11 +33,11 @@ const Navbar = () => {
             </div>
             <div className="nav1 lg:flex lg:gap-7 hidden">
                 {['Home', 'Products', 'About Us', 'Blog'].map((item, index) => (
-                    <a key={index} href="#" className={`tracking-wide font-medium text-xl`}>{item}</a>
+                    <a key={index} href="#" className={`tracking-wide font-medium text-xl hover:text-2xl transition-all`}>{item}</a>
                 ))}
             </div>
             <div className="nav2 hidden lg:flex">
-                <a href="#" className='tracking-wide font-medium text-xl'>Contact Us</a>
+                <a href="#" className='tracking-wide font-medium text-xl hover:text-2xl transition-all'>Contact Us</a>
             </div>
             <IoMenuOutline onClick={() => tl.current.play()} className='w-10 h-10 lg:hidden' />
             <div className="full h-screen w-full absolute top-0 -right-full bg-black px-10 py-36 backdrop-blur lg:hidden">
