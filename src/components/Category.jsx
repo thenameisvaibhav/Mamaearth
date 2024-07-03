@@ -3,10 +3,10 @@ import React from 'react'
 const Category = () => {
     return (
         <div className='w-full my-5 md:my-10'>
-            <h1 className='text-5xl md:text-6xl lg:text-7xl px-5 md:px-10 lg:px-14 tracking-tighter font-semibold font-["Helvetica_Now_Display"] mb-6 md:mb-12 lg:mb-16 text-center'>Our Range</h1>
+            <h1 className='text-5xl md:text-6xl lg:text-7xl px-5 md:px-10 lg:px-14 tracking-tighter font-semibold font-["Helvetica"] mb-6 md:mb-12 lg:mb-16 text-center'>Our Range</h1>
             <div className="category pl-3 md:px-9 lg:px-14 w-full overflow-x-auto flex gap-3 md:gap-9 lg:gap-14 whitespace-nowrap overflow-hidden">
                 <div className="category1 flex-shrink-0">
-                    <div className="categorycontainer font-['Helvetica_Now_Display']">
+                    <div className="categorycontainer font-['Helvetica']">
                         <div className="w-60 md:w-96 h-96 md:h-[50vh] lg:h-[60vh]">
                             <div className="image w-full">
                                 <img className='w-full object-cover' src="src\assets\images\face.webp" alt="" />
@@ -16,7 +16,7 @@ const Category = () => {
                     </div>
                 </div>
                 <div className="category2 flex-shrink-0">
-                    <div className="categorycontainer font-['Neue_Montreal']">
+                    <div className="categorycontainer font-['Neue']">
                         <div className="w-60 md:w-96 h-96 md:h-[50vh] lg:h-[60vh]">
                             <div className="image w-full">
                                 <img className='w-full h-full object-cover' src="src\assets\images\Hair.webp" alt="" />
@@ -26,7 +26,7 @@ const Category = () => {
                     </div>
                 </div>
                 <div className="category3 flex-shrink-0">
-                    <div className="categorycontainer font-['Neue_Montreal']">
+                    <div className="categorycontainer font-['Neue']">
                         <div className="w-60 md:w-96 h-96 md:h-[50vh] lg:h-[60vh]">
                             <div className="image w-full">
                                 <img className='w-full h-full object-cover' src="src\assets\images\Baby.webp" alt="" />
@@ -36,7 +36,7 @@ const Category = () => {
                     </div>
                 </div>
                 <div className="category4 flex-shrink-0">
-                    <div className="categorycontainer font-['Neue_Montreal']">
+                    <div className="categorycontainer font-['Neue']">
                         <div className="w-60 md:w-96 h-96 md:h-[50vh] lg:h-[60vh]">
                             <div className="image w-full">
                                 <img className='w-full h-full object-cover' src="src\assets\images\Makeup.webp" alt="" />

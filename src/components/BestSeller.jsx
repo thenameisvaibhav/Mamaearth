@@ -3,10 +3,10 @@ import React from 'react'
 const BestSeller = () => {
     return (
         <div className='bestseller mt-4 lg:mt-8 mb-5 md:mb-10'>
-            <h1 className='text-5xl md:text-6xl lg:text-7xl px-5 md:px-10 lg:px-14 tracking-tighter font-semibold font-["Helvetica_Now_Display"] text-center mb-6 md:mb-12 lg:mb-16'>Best Sellers</h1>
+            <h1 className='text-5xl md:text-6xl lg:text-7xl px-5 md:px-10 lg:px-14 tracking-tighter font-semibold font-["Helvetica"] text-center mb-6 md:mb-12 lg:mb-16'>Best Sellers</h1>
             <div className="products px-3 md:px-9 lg:px-14 w-full overflow-x-scroll flex gap-3 md:gap-9 lg:gap-14 whitespace-nowrap">
                 <div className="product1 flex-shrink-0">
-                    <div className="productcontainer font-['Neue_Montreal']">
+                    <div className="productcontainer font-['Neue']">
                         <div className="w-60 md:w-80">
                             <div className="image flex items-center justify-center rounded-t-xl w-full h-72 md:h-[40vh] lg:h-[60vh] bg-gradient-to-r from-[#e36f06] to-[#C81E20] hover:pb-20">
                                 <img className='drop-shadow-[0_10px_0.1px_rgba(0,0,0,0.24)]' src="src\assets\images\pro1.png" alt="" />
@@ -20,7 +20,7 @@ const BestSeller = () => {
                     </div>
                 </div>
                 <div className="product2 flex-shrink-0">
-                    <div className="productcontainer font-['Neue_Montreal']">
+                    <div className="productcontainer font-['Neue']">
                         <div className="w-60 md:w-80">
                             <div className="image flex items-center justify-center rounded-t-xl w-full h-72 md:h-[40vh] lg:h-[60vh] bg-gradient-to-r from-[#e36f06] to-[#E1A500] hover:pb-20">
                                 <img className='drop-shadow-[0_10px_0.1px_rgba(0,0,0,0.24)]' src="src\assets\images\pro2.png" alt="" />
@@ -34,7 +34,7 @@ const BestSeller = () => {
                     </div>
                 </div>
                 <div className="product3 flex-shrink-0">
-                    <div className="productcontainer font-['Neue_Montreal']">
+                    <div className="productcontainer font-['Neue']">
                         <div className="w-60 md:w-80">
                             <div className="image flex items-center justify-center rounded-t-xl w-full h-72 md:h-[40vh] lg:h-[60vh] bg-gradient-to-r from-[#E8BD7C] to-[#BA4E5E] hover:pb-20">
                                 <img className='drop-shadow-[0_10px_0.1px_rgba(0,0,0,0.24)]' src="src\assets\images\Mamaonion.png" alt="" />
@@ -48,7 +48,7 @@ const BestSeller = () => {
                     </div>
                 </div>
                 <div className="product4 flex-shrink-0">
-                    <div className="productcontainer font-['Neue_Montreal']">
+                    <div className="productcontainer font-['Neue']">
                         <div className="w-60 md:w-80">
                             <div className="image flex items-center justify-center rounded-t-xl w-full h-72 md:h-[40vh] lg:h-[60vh] bg-gradient-to-l from-[#e36f06] to-[#E1A500] hover:pb-20">
                                 <img className='drop-shadow-[0_10px_0.1px_rgba(0,0,0,0.24)]' src="src\assets\images\Mamaserum.png" alt="" />
@@ -62,7 +62,7 @@ const BestSeller = () => {
                     </div>
                 </div>
                 <div className="product5 flex-shrink-0">
-                    <div className="productcontainer font-['Neue_Montreal']">
+                    <div className="productcontainer font-['Neue']">
                         <div className="w-60 md:w-80">
                             <div className="image flex items-center justify-center rounded-t-xl w-full h-72 md:h-[40vh] lg:h-[60vh] bg-gradient-to-r from-[#f8c1ff] to-[#F2B889] hover:pb-20">
                                 <img className='drop-shadow-[0_10px_0.1px_rgba(0,0,0,0.24)]' src="src\assets\images\Mamaoil.png" alt="" />

@@ -6,7 +6,7 @@ import { BsTwitterX } from "react-icons/bs";
 
 const Footer = () => {
     return (
-        <footer className='w-full min-h-screen bg-[#111] text-white py-5 md:py-10 px-5 md:px-10 font-["Helvetica_Now_Display"]'>
+        <footer className='w-full min-h-screen bg-[#111] text-white py-5 md:py-10 px-5 md:px-10 font-["Helvetica"]'>
             <div className="upper lg:flex items-center justify-between">
                 <img className='w-full lg:w-96 object-cover' src="src\assets\images\MamaLogo.png" alt="" />
                 <div className="support mt-10 md:mt-14 lg:block flex items-center justify-between border-b-[.1px] lg:border-b-0 border-zinc-400 pb-4 md:pb-8">

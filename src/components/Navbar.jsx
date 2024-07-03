@@ -27,7 +27,7 @@ const Navbar = () => {
             })
     }, []);
     return (
-        <div className='w-full flex items-center justify-between px-5 md:px-10 lg:px-14 py-2 lg:py-5 font-["Neue_Montreal"] overflow-x-hidden'>
+        <div className='w-full flex items-center justify-between px-5 md:px-10 lg:px-14 py-2 lg:py-5 font-["Neue"] overflow-x-hidden'>
             <div className="logo">
             <img className='w-48 object-contain' src="src\assets\images\MamaLogo.png" alt="" />
             </div>
