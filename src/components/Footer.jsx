@@ -48,12 +48,12 @@ const Footer = () => {
                 <h1 className='md:text-xl'>Refund policy  |  Privacy policy |</h1>
                 <h1 className='md:text-xl'>Terms of service | Shipping policy |</h1>
             </div>
-            <div className="mt-5 w-1/2 flex items-center lg:ml-96">
+            <div className="w-1/2 flex items-center lg:ml-96">
                 <img src="src\assets\images\google.png" alt="" className='lg:h-36' />
                 <img src="src\assets\images\applo.png" className='h-11 md:h-24' alt="" />
             </div>
-            <h1 className='mt-5 md:mt-10 md:text-xl'>© 2024 Honasa Consumer Limited. All Rights Reserved</h1>
-            <h1 className='text-center md:mt-10 md:text-xl'>Made with ❤️</h1>
+            <h1 className='md:mt-10 md:text-xl'>© 2024 Honasa Consumer Limited. All Rights Reserved</h1>
+            <h1 className='text-center md:text-xl'>Made with ❤️</h1>
         </footer>
     )
 }
