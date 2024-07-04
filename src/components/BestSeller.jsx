@@ -9,7 +9,7 @@ const BestSeller = () => {
                     <div className="productcontainer font-['Neue']">
                         <div className="w-60 md:w-80">
                             <div className="image flex items-center justify-center rounded-t-xl w-full h-72 md:h-[40vh] lg:h-[60vh] bg-gradient-to-r from-[#e36f06] to-[#C81E20] hover:pb-20">
-                                <img className='drop-shadow-[0_10px_0.1px_rgba(0,0,0,0.24)]' src="src\assets\images\pro1.png" alt="" />
+                                <img className='drop-shadow-[0_10px_0.1px_rgba(0,0,0,0.24)]' src="/images/pro1.png" alt="" />
                             </div>
                             <div className="productdesc flex items-center justify-between px-5 md:px-8 py-3 md:py-5 bg-gradient-to-r from-[#e37106ac] to-[#c81e219a] rounded-b-xl">
                                 <h3 className='font-medium md:text-xl'>Ubtan Face Wash</h3>
@@ -23,7 +23,7 @@ const BestSeller = () => {
                     <div className="productcontainer font-['Neue']">
                         <div className="w-60 md:w-80">
                             <div className="image flex items-center justify-center rounded-t-xl w-full h-72 md:h-[40vh] lg:h-[60vh] bg-gradient-to-r from-[#e36f06] to-[#E1A500] hover:pb-20">
-                                <img className='drop-shadow-[0_10px_0.1px_rgba(0,0,0,0.24)]' src="src\assets\images\pro2.png" alt="" />
+                                <img className='drop-shadow-[0_10px_0.1px_rgba(0,0,0,0.24)]' src="/images/pro2.png" alt="" />
                             </div>
                             <div className="productdesc flex items-center justify-between px-5 md:px-8 py-3 md:py-5 bg-gradient-to-r from-[#e37106ac] to-[#e1a50096] rounded-b-xl">
                                 <h3 className='font-medium md:text-xl'>Vitamin C Sunscreen</h3>
@@ -37,7 +37,7 @@ const BestSeller = () => {
                     <div className="productcontainer font-['Neue']">
                         <div className="w-60 md:w-80">
                             <div className="image flex items-center justify-center rounded-t-xl w-full h-72 md:h-[40vh] lg:h-[60vh] bg-gradient-to-r from-[#E8BD7C] to-[#BA4E5E] hover:pb-20">
-                                <img className='drop-shadow-[0_10px_0.1px_rgba(0,0,0,0.24)]' src="src\assets\images\Mamaonion.png" alt="" />
+                                <img className='drop-shadow-[0_10px_0.1px_rgba(0,0,0,0.24)]' src="/images/Mamaonion.png" alt="" />
                             </div>
                             <div className="productdesc flex items-center justify-between px-5 md:px-8 py-3 md:py-5 bg-gradient-to-r from-[#e8bd7cb1] to-[#ba4e5eb2] rounded-b-xl">
                                 <h3 className='font-medium md:text-xl'>Onion Shampoo</h3>
@@ -51,7 +51,7 @@ const BestSeller = () => {
                     <div className="productcontainer font-['Neue']">
                         <div className="w-60 md:w-80">
                             <div className="image flex items-center justify-center rounded-t-xl w-full h-72 md:h-[40vh] lg:h-[60vh] bg-gradient-to-l from-[#e36f06] to-[#E1A500] hover:pb-20">
-                                <img className='drop-shadow-[0_10px_0.1px_rgba(0,0,0,0.24)]' src="src\assets\images\Mamaserum.png" alt="" />
+                                <img className='drop-shadow-[0_10px_0.1px_rgba(0,0,0,0.24)]' src="/images/Mamaserum.png" alt="" />
                             </div>
                             <div className="productdesc flex items-center justify-between px-5 md:px-8 py-3 md:py-5 bg-gradient-to-l from-[#e37106ac] to-[#e1a50096] rounded-b-xl">
                                 <h3 className='font-medium md:text-xl'>Vitamin C Serum</h3>
@@ -65,7 +65,7 @@ const BestSeller = () => {
                     <div className="productcontainer font-['Neue']">
                         <div className="w-60 md:w-80">
                             <div className="image flex items-center justify-center rounded-t-xl w-full h-72 md:h-[40vh] lg:h-[60vh] bg-gradient-to-r from-[#f8c1ff] to-[#F2B889] hover:pb-20">
-                                <img className='drop-shadow-[0_10px_0.1px_rgba(0,0,0,0.24)]' src="src\assets\images\Mamaoil.png" alt="" />
+                                <img className='drop-shadow-[0_10px_0.1px_rgba(0,0,0,0.24)]' src="/images/Mamaoil.png" alt="" />
                             </div>
                             <div className="productdesc flex items-center justify-between px-5 md:px-8 py-3 md:py-5 bg-gradient-to-r from-[#f8c1ffab] to-[#f2b889b6] rounded-b-xl">
                                 <h3 className='font-medium md:text-xl'>Rosemary Oil</h3>

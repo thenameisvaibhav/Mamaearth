@@ -9,7 +9,7 @@ const Category = () => {
                     <div className="categorycontainer font-['Helvetica']">
                         <div className="w-60 md:w-96 h-96 md:h-[50vh] lg:h-[60vh]">
                             <div className="image w-full">
-                                <img className='w-full object-cover' src="src\assets\images\face.webp" alt="" />
+                                <img className='w-full object-cover' src="/images/face.webp" alt="" />
                             </div>
                             <button className='w-full font-semibold py-3 md:py-9 backdrop-blur-md relative top-0 left-0 -translate-x-0 -translate-y-[100%] md:-translate-y-[150%] lg:-translate-y-[190%] text-xl md:text-2xl lg:text-3xl md:font-bold uppercase'>Face</button>
                         </div>
@@ -19,7 +19,7 @@ const Category = () => {
                     <div className="categorycontainer font-['Neue']">
                         <div className="w-60 md:w-96 h-96 md:h-[50vh] lg:h-[60vh]">
                             <div className="image w-full">
-                                <img className='w-full h-full object-cover' src="src\assets\images\Hair.webp" alt="" />
+                                <img className='w-full h-full object-cover' src="/images/Hair.webp" alt="" />
                             </div>
                             <button className='w-full font-semibold py-3 md:py-9 backdrop-blur-md relative top-0 left-0 -translate-x-0 -translate-y-[100%] md:-translate-y-[150%] lg:-translate-y-[190%] text-xl md:text-2xl lg:text-3xl md:font-bold uppercase'>Hair</button>
                         </div>
@@ -29,7 +29,7 @@ const Category = () => {
                     <div className="categorycontainer font-['Neue']">
                         <div className="w-60 md:w-96 h-96 md:h-[50vh] lg:h-[60vh]">
                             <div className="image w-full">
-                                <img className='w-full h-full object-cover' src="src\assets\images\Baby.webp" alt="" />
+                                <img className='w-full h-full object-cover' src="/images/Baby.webp" alt="" />
                             </div>
                             <button className='w-full font-semibold py-3 md:py-9 backdrop-blur-md relative top-0 left-0 -translate-x-0 -translate-y-[100%] md:-translate-y-[150%] lg:-translate-y-[190%] text-xl md:text-2xl lg:text-3xl md:font-bold uppercase'>Baby</button>
                         </div>
@@ -39,7 +39,7 @@ const Category = () => {
                     <div className="categorycontainer font-['Neue']">
                         <div className="w-60 md:w-96 h-96 md:h-[50vh] lg:h-[60vh]">
                             <div className="image w-full">
-                                <img className='w-full h-full object-cover' src="src\assets\images\Makeup.webp" alt="" />
+                                <img className='w-full h-full object-cover' src="/images/Makeup.webp" alt="" />
                             </div>
                             <button className='w-full font-semibold py-3 md:py-9 backdrop-blur-md relative top-0 left-0 -translate-x-0 -translate-y-[100%] md:-translate-y-[150%] lg:-translate-y-[190%] text-xl md:text-2xl lg:text-3xl md:font-bold uppercase'>Makeup</button>
                         </div>

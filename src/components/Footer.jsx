@@ -8,7 +8,7 @@ const Footer = () => {
     return (
         <footer className='w-full min-h-screen bg-[#111] text-white py-5 md:py-10 px-5 md:px-10 font-["Helvetica"]'>
             <div className="upper lg:flex items-center justify-between">
-                <img className='w-full lg:w-96 object-cover' src="src\assets\images\MamaLogo.png" alt="" />
+                <img className='w-full lg:w-96 object-cover' src="/images/MamaLogo.png" alt="" />
                 <div className="support mt-10 md:mt-14 lg:block flex items-center justify-between border-b-[.1px] lg:border-b-0 border-zinc-400 pb-4 md:pb-8">
                     <h1 className='font-bold uppercase text-xl md:text-3xl lg:text-xl'>Customer Support</h1>
                     <h1 className='hidden text-lg mt-6 lg:block opacity-90'>Privacy Policy</h1>
@@ -49,8 +49,8 @@ const Footer = () => {
                 <h1 className='md:text-xl'>Terms of service | Shipping policy |</h1>
             </div>
             <div className="w-1/2 flex items-center lg:ml-96">
-                <img src="src\assets\images\google.png" alt="" className='lg:h-36' />
-                <img src="src\assets\images\applo.png" className='h-11 md:h-24' alt="" />
+                <img src="/images/google.png" alt="" className='lg:h-36' />
+                <img src="/images/applo.png" className='h-11 md:h-24' alt="" />
             </div>
             <h1 className='md:mt-10 md:text-xl'>© 2024 Honasa Consumer Limited. All Rights Reserved</h1>
             <h1 className='text-center md:text-xl'>Made with ❤️</h1>

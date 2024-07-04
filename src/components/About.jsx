@@ -7,37 +7,37 @@ const About = () => {
             <div className="all font-['Neue'] lg:flex">
                 <div className="image1 w-full lg:w-[25%] h-96 md:h-full flex items-center justify-center">
                     <div className="w-full h-96 md:h-[60vh] relative">
-                        <img className='w-full h-full blur-sm object-cover' src="src\assets\images\Mamaemp.png" alt="" />
+                        <img className='w-full h-full blur-sm object-cover' src="/images/Mamaemp.png" alt="" />
                     </div>
                     <div className="w-[80%] lg:w-[20%] h-[45%] lg:h-[36%] absolute">
-                        <img className='w-full h-full object-cover' src="src\assets\images\Mamaemp.png" alt="" />
+                        <img className='w-full h-full object-cover' src="/images/Mamaemp.png" alt="" />
                         <h1 className='text-center text-xl md:text-4xl font-bold tracking-wide text-white'>Mum Empowerment</h1>
                     </div>
                 </div>
                 <div className="image2 w-full lg:w-[25%] h-96 md:h-full flex items-center justify-center">
                     <div className="w-full h-96 md:h-[60vh] relative">
-                        <img className='w-full h-full blur-sm object-cover' src="src\assets\images\MamaSaf.jpg" alt="" />
+                        <img className='w-full h-full blur-sm object-cover' src="/images/MamaSaf.jpg" alt="" />
                     </div>
                     <div className="w-[80%] lg:w-[20%] h-[45%] lg:h-[36%] absolute">
-                        <img className='w-full h-full object-cover' src="src\assets\images\MamaSaf.jpg" alt="" />
+                        <img className='w-full h-full object-cover' src="/images/MamaSaf.jpg" alt="" />
                         <h1 className='text-center text-xl md:text-4xl font-bold tracking-wide text-white'>Safety</h1>
                     </div>
                 </div>
                 <div className="image3 w-full lg:w-[25%] h-96 md:h-full flex items-center justify-center">
                     <div className="w-full h-96 md:h-[60vh] relative">
-                        <img className='w-full h-full blur-sm object-cover' src="src\assets\images\Mamahon.png" alt="" />
+                        <img className='w-full h-full blur-sm object-cover' src="/images/Mamahon.png" alt="" />
                     </div>
                     <div className="w-[80%] lg:w-[20%] h-[45%] lg:h-[36%] absolute">
-                        <img className='w-full h-full object-cover' src="src\assets\images\Mamahon.png" alt="" />
+                        <img className='w-full h-full object-cover' src="/images/Mamahon.png" alt="" />
                         <h1 className='text-center text-xl md:text-4xl font-bold tracking-wide text-white'>Honesty</h1>
                     </div>
                 </div>
                 <div className="image4 w-full lg:w-[25%] h-96 md:h-full flex items-center justify-center">
                     <div className="w-full h-96 md:h-[60vh] relative">
-                        <img className='w-full h-full blur-sm object-cover' src="src\assets\images\Fruit.avif" alt="" />
+                        <img className='w-full h-full blur-sm object-cover' src="/images/Fruit.avif" alt="" />
                     </div>
                     <div className="w-[80%] lg:w-[20%] h-[45%] lg:h-[36%] absolute">
-                        <img className='w-full h-full object-cover' src="src\assets\images\Fruit.avif" alt="" />
+                        <img className='w-full h-full object-cover' src="/images/Fruit.avif" alt="" />
                         <h1 className='text-center text-xl md:text-4xl font-bold tracking-wide text-white'>Best of Earth</h1>
                     </div>
                 </div>
