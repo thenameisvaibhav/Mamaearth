@@ -40,7 +40,7 @@ const Banner = () => {
     return (
         <div className='w-full lg:flex lg:flex-row-reverse font-["Helvetica"] pt-1 lg:pt-5 lg:flex-1 lg:overflow-hidden'>
             <div className="image w-full lg:w-1/2 h-[37.5vh] md:h-[52vh] lg:h-full flex flex-nowrap overflow-hidden">
-                <img className='banner-img w-full h-full object-cover object-top shrink-0' src="./src/assets/images/MamaFace.jpg" alt="" />
+                <img className='banner-img w-full h-full object-cover object-top shrink-0' src="/images/MamaFace.jpg" alt="" />
                 <img className='banner-img w-full h-full object-cover object-top shrink-0' src="./src/assets/images/MamaMake.jpg" alt="" />
                 <img className='banner-img w-full h-full object-cover object-center shrink-0' src="./src/assets/images/Mamasun.png" alt="" />
                 <img className='banner-img w-full h-full object-cover object-center shrink-0' src="./src/assets/images/shap.jpg" alt="" />
