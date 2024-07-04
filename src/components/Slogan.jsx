@@ -32,11 +32,11 @@ const Slogan = () => {
     return (
         <div className='w-full'>
             <div className="image w-full h-full flex flex-nowrap overflow-hidden">
-                <img className="mid-img" src="src\assets\images\Facemid.avif" alt='' />
-                <img className="mid-img" src="src\assets\images\MamaShamid.avif" alt='' />
-                <img className="mid-img" src="src\assets\images\Mamababymid.avif" alt='' />
-                <img className="mid-img" src="src\assets\images\Mamalipmid.avif" alt='' />
-                <img className="mid-img" src="src\assets\images\Facemid.avif" alt='' />
+                <img className="mid-img" src="/images/Facemid.avif" alt='' />
+                <img className="mid-img" src="/images/MamaShamid.avif" alt='' />
+                <img className="mid-img" src="/images/Mamababymid.avif" alt='' />
+                <img className="mid-img" src="/images/Mamalipmid.avif" alt='' />
+                <img className="mid-img" src="/images/Facemid.avif" alt='' />
             </div>
         </div>
     )

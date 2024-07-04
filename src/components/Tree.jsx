@@ -3,7 +3,7 @@ import React from 'react'
 const Tree = () => {
   return (
     <div className="w-full mt-5 md:mt-10">
-      <div className="w-full h-full lg:h-96 bg-[url(https://images.mamaearth.in/wysiwyg/desktop_home_img.png?format=auto)] bg-cover">
+      <div className="w-full h-full lg:h-96 bg-[url(/images/Tree.avif)] bg-cover">
         <div className="text">
           <h1 className='text-4xl md:text-6xl lg:text-7xl px-5 md:px-10 lg:px-14 tracking-tighter font-semibold font-["Helvetica"] mb-2 md:mb-4 lg:mb-6 text-center'>We Plant Goodness</h1>
           <h1 className='text-6xl md:text-7xl lg:text-8xl px-5 md:px-10 lg:px-14 tracking-wide font-semibold font-["Helvetica"] mb-2 md:mb-4 lg:mb-6 text-center lg:mt-14'>509491</h1>
