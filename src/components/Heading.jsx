@@ -8,7 +8,7 @@ const Heading = () => {
         gsap.from(headRef.current,{
             y: -100,
             opacity: 0,
-            duration: 1.2,
+            duration: .2,
         })
     })
     return (

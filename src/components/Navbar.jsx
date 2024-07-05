@@ -33,23 +33,23 @@ const Navbar = () => {
     useGSAP(()=>{
         tl2.from(".logo, .nav1, .nav2, .menu", {
             y: -100,
-            duration: .5,
-            delay: 1,
+            duration: .4,
+            delay: .3,
             opacity: 0,
             stagger: .4
         })
     })
     return (
         <div className='w-full flex items-center justify-between px-5 md:px-10 lg:px-14 py-2 lg:py-5 font-["Neue"] overflow-x-hidden'>
-            <div className="logo">
+            <div className="logo overflow-hidden">
                 <img className='w-48 object-contain' src="/images/MamaLogo.png" alt="" />
             </div>
-            <div className="nav1 lg:flex lg:gap-7 hidden">
+            <div className="nav1 lg:flex lg:gap-7 hidden overflow-hidden">
                 {['Home', 'Products', 'About Us', 'Blog'].map((item, index) => (
                     <a key={index} href="#" className={`tracking-wide font-medium text-xl hover:text-2xl transition-all`}>{item}</a>
                 ))}
             </div>
-            <div className="nav2 hidden lg:flex">
+            <div className="nav2 hidden lg:flex overflow-hidden">
                 <a href="#" className='tracking-wide font-medium text-xl hover:text-2xl transition-all'>Contact Us</a>
             </div>
             <IoMenuOutline onClick={() => tl.current.play()} className='w-10 h-10 lg:hidden' />

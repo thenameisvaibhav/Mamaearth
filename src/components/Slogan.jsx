@@ -11,22 +11,22 @@ const Slogan = () => {
         tl.to('.mid-img', {
             transform: 'translateX(-100%)',
             duration: 1,
-            ease: 'expo.inOut',
+            ease: 'sine.inOut',
         }, '+=3')
             .to('.mid-img', {
                 transform: 'translateX(-200%)',
                 duration: 1,
-                ease: 'expo.inOut',
+                ease: 'sine.inOut',
             }, '+=3')
             .to('.mid-img', {
                 transform: 'translateX(-300%)',
                 duration: 1,
-                ease: 'expo.inOut',
+                ease: 'sine.inOut',
             }, '+=3')
             .to('.mid-img', {
                 transform: 'translateX(-400%)',
                 duration: 1,
-                ease: 'expo.inOut',
+                ease: 'sine.inOut',
             }, '+=3')
     })
     return (

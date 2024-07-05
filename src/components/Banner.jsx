@@ -12,6 +12,7 @@ const Banner = () => {
     const text4Ref = useRef()
     const offerRef = useRef()
     const btnRef = useRef()
+    const imageRef = useRef()
 
 
     useGSAP(() => {
@@ -20,7 +21,7 @@ const Banner = () => {
         });
 
         const tl2 = gsap.timeline({
-            delay: 2
+            delay: 1.38
         });
 
         tl1.to('.banner-img', {
@@ -52,52 +53,52 @@ const Banner = () => {
 
         tl2.from(text1Ref.current, {
             y: -100,
-            duration: .4,
+            duration: .3,
             rotate: 45,
             opacity: 0,
             ease: 'power4.inOut'
         },)
             .from(text2Ref.current, {
                 y: -100,
-                duration: .4,
+                duration: .3,
                 rotate: 45,
                 opacity: 0,
                 ease: 'power4.inOut'
             },)
             .from(text3Ref.current, {
                 y: -100,
-                duration: .4,
+                duration: .3,
                 rotate: 45,
                 opacity: 0,
                 ease: 'power4.inOut'
             },)
             .from(text4Ref.current, {
                 y: -100,
-                duration: .4,
+                duration: .3,
                 rotate: 45,
                 opacity: 0,
                 ease: 'power4.inOut'
             },)
             .from(offerRef.current, {
                 x: -100,
-                duration: .4,
+                duration: .3,
                 opacity: 0,
                 ease: 'elastic.inOut'
             })
             .from(btnRef.current, {
                 opacity: 0,
-                duration: .4,
+                duration: .3,
                 ease: 'sine.inOut'
             })
-            .from('.image', {
+            .from(imageRef.current, {
                 opacity: 0,
-                duration: .5,
+                duration: .3,
                 ease: 'sine.inOut'
             })
     })
     return (
         <div className='w-full lg:flex lg:flex-row-reverse font-["Helvetica"] pt-1 lg:pt-5 lg:flex-1 lg:overflow-hidden'>
-            <div className="image w-full lg:w-1/2 h-[37.5vh] md:h-[52vh] lg:h-full flex flex-nowrap overflow-hidden">
+            <div ref={imageRef} className="image w-full lg:w-1/2 h-[37.5vh] md:h-[52vh] lg:h-full flex flex-nowrap overflow-hidden">
                 <img className='banner-img w-full h-full object-cover object-top shrink-0' src="/images/MamaFace.jpg" alt="" />
                 <img className='banner-img w-full h-full object-cover object-top shrink-0' src="/images/MamaMake.jpg" alt="" />
                 <img className='banner-img w-full h-full object-cover object-center shrink-0' src="/images/Mamasun.png" alt="" />
@@ -114,7 +115,7 @@ const Banner = () => {
                     <BiSolidOffer />
                     <h3 className='text-sm md:text-base lg:text-lg font-semibold tracking-tight leading-none'>Buy Any 3 Products @ FLAT Rs.899</h3>
                 </div>
-                <motion.button whileHover={{ scale: 1.1, backgroundColor: '#FFF', color: 'black', duration: 2 }} ref={btnRef} className='bg-zinc-800 text-white px-5 lg:px-8 py-3 mt-5 md:mt-8 lg:text-lg rounded-lg font-semibold'>Check Products</motion.button>
+                <motion.button whileHover={{ scale: 1.1, backgroundColor: '#FFF', color: '#111', duration: 2 }} whileTap={{scale: .9}} ref={btnRef} className='bg-zinc-800 text-white px-5 lg:px-8 py-3 mt-5 md:mt-8 lg:text-lg rounded-lg font-semibold'>Check Products</motion.button>
             </div>
         </div>
     )
