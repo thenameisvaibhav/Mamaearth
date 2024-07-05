@@ -1,13 +1,16 @@
 import gsap from 'gsap';
-import React, { useEffect, useRef } from 'react';
+import React, { useRef } from 'react';
 import 'remixicon/fonts/remixicon.css';
 import { IoMenuOutline } from "react-icons/io5";
+import { useGSAP } from '@gsap/react';
 
 
 const Navbar = () => {
     const tl = useRef(gsap.timeline({ paused: true }));
 
-    useEffect(() => {
+    const tl2 = gsap.timeline();
+
+    useGSAP(() => {
         tl.current
             .to('.full', {
                 right: 0,
@@ -25,7 +28,17 @@ const Navbar = () => {
                 opacity: 0,
                 ease: 'power4.out'
             })
-    }, []);
+    }, );
+
+    useGSAP(()=>{
+        tl2.from(".logo, .nav1, .nav2, .menu", {
+            y: -100,
+            duration: .5,
+            delay: 1,
+            opacity: 0,
+            stagger: .4
+        })
+    })
     return (
         <div className='w-full flex items-center justify-between px-5 md:px-10 lg:px-14 py-2 lg:py-5 font-["Neue"] overflow-x-hidden'>
             <div className="logo">
@@ -40,7 +53,7 @@ const Navbar = () => {
                 <a href="#" className='tracking-wide font-medium text-xl hover:text-2xl transition-all'>Contact Us</a>
             </div>
             <IoMenuOutline onClick={() => tl.current.play()} className='w-10 h-10 lg:hidden' />
-            <div className="full h-screen w-full absolute top-0 -right-full bg-black px-10 py-36 backdrop-blur lg:hidden">
+            <div className="menu full h-screen w-full absolute top-0 -right-full bg-zinc-900 px-10 py-36 backdrop-blur lg:hidden">
                 <h4 className='text-5xl md:text-8xl font-medium mb-6 md:mb-12 text-white'>Home</h4>
                 <h4 className='text-5xl md:text-8xl font-medium mb-6 md:mb-12 text-white'>Products</h4>
                 <h4 className='text-5xl md:text-8xl font-medium mb-6 md:mb-12 text-white'>About Us</h4>
