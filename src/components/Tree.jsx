@@ -14,7 +14,7 @@ const Tree = () => {
           {"509491".split('').map((item, index) =>
             <motion.span
               initial={{ y: '100%' }}
-              animate={{ y: '0%' }}
+              whileInView={{ y: '0%' }}
               transition={{ ease: [0.87, 0, 0.13, 1], delay: index * .05 }}
               className='inline-block text-4xl md:text-7xl lg:text-8xl px-5 md:px-10 lg:px-14 tracking-wide font-semibold font-["Helvetica"] mb-2 md:mb-4 lg:mb-6 text-center lg:mt-14 lg:ml-20' key={index}>{item}</motion.span>)}
           <p className='text-center text-sm lg:mt-20'>Trees have got life already...</p>
